@@ -119,7 +119,6 @@ const WarehousePage: React.FC = () => {
 
   useEffect(() => {
     fetchProducts().catch(console.error);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [page, pageSize, search]);
 
   useEffect(() => {

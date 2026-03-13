@@ -1,4 +1,3 @@
-using System;
 using SmartWarehouse.Api.Data;
 
 namespace SmartWarehouse.Api.Entities;
@@ -9,7 +8,7 @@ public class StockMovement : BaseEntity
 
     public int Quantity { get; set; }
 
-    public string MovementType { get; set; } = null!;
+    public MovementType MovementType { get; set; }
 
     public int ShelfId { get; set; }
 

@@ -1,3 +1,5 @@
+using SmartWarehouse.Api.Data;
+
 namespace SmartWarehouse.Api.DTOs;
 
 public class CreateStockMovementDto
@@ -9,7 +11,7 @@ public class CreateStockMovementDto
     public int Quantity { get; set; }
 
     // "IN" veya "OUT"
-    public string MovementType { get; set; } = null!;
+    public MovementType MovementType { get; set; }
 
     public int ShelfId { get; set; }
 }
