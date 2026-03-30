@@ -1,4 +1,3 @@
-# CALISMA_RAPORU.md
 
 ![alt text](image.png)
 
